@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Aroon's World | PONG</title>
+		<link rel="shortcut icon" href="images/ico.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header" >
+				<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+				<h1>
+					<strong>I'm Aroon Mathai.</strong><br/> 
+					Welcome to my world!<br />
+				</h1>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+				<h1>Pong</h1>
+				<!-- One -->
+				<section>
+					<p style="text-align: justify;">To create this portable gaming console, I used an <a href="http://www.amazon.in/Arduino-UNO-board-DIP-ATmega328/dp/B010SI9WBG?tag=googinhydr18418-21&tag=googinkenshoo-21&ascsubtag=274b0e2c-2633-4eb7-a95b-9a4b35c4c91a" target="_blank">Arduino UNO</a> onto which I soldered an Aadafruit 1.8" Color TFT Shield with a microSD and Joystick. You can find the Shield that I used <a href="https://www.adafruit.com/product/802" target="_blank">here</a>.</p>
+					<p style="text-align: justify;">I wrote a minimalistic 'Breakout' game and ported it to the console. You can move the paddle across the screen using the joystick. Each time the ball makes contact with the paddle, you score a point and if you miss the game ends. The game comes with three difficulty levels ranging from easy to hard which players can toggle through using the joystick. From the screenshot you can see that the players current selection is highlighted in red.  The paddle can be controlled using the joystick, and points are scored each time the player gets the ball to bounce off the paddle.</p>
+					<p style="text-align: justify;">I'm someone who believes very strongly in the aesthetics of any product and so I designed a small User Interface and a little Pixel Artwork for the game.</p>
+							<h2>Screenshots of PONG</h2>
+							<div class="box alt">
+								<div class="box alt">
+								<div class="row 50% uniform">
+									<div class="4u"><span class="image fit"><img src="images/mobileMod/pong/pong_images/IMG_0663.JPG" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/mobileMod/pong/pong_images/IMG_0665.JPG" alt="" /></span></div>
+									<div class="4u$"><span class="image fit"><img src="images/mobileMod/pong/pong_images/IMG_0666.JPG" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="images/mobileMod/pong/pong_images/IMG_0664.JPG" alt="" /></span></div>
+								</div>
+							</div>
+							</div>
+						</section>
+
+						<a id="toTop" class="scrollToTop"  href="#" style="float:right; border-bottom-style: none;"><svg ckass="krown-svg arrow_up"  x="0px" y="0px" width="60px" height="60px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve"><polygon fill="#FFFFF" points="29.791,22.459 26.962,25.288 19.538,32.713 22.366,35.541 29.791,28.116 37.215,35.541 40.043,32.713 32.619,25.288 "/></svg></a>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://twitter.com/aroonmathai" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://github.com/aroonm/" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/aroon-mathai-b0980a9b" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="index.html" class="icon fa-home"><span class="label">Home</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Aroon Mathai</li><li><a href="index.html">Return Home</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script>
+$(window).scroll(function() {
+    			if ($(this).scrollTop()) {
+        			$('#toTop:hidden').stop(true, true).fadeIn();
+    			} else {
+        			$('#toTop').stop(true, true).fadeOut();
+    		}});
+
+</script>
+
+	</body>
+</html>

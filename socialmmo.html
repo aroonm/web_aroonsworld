@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Aroon's World | Social MMO</title>
+		<link rel="shortcut icon" href="images/ico.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header" >
+				<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+				<h1>
+					<strong>I'm Aroon Mathai.</strong><br/> 
+					Welcome to my world!<br />
+				</h1>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<h1>Social MMO</h1>
+
+				<!-- One -->
+				<section>
+							
+							<p style="text-align: justify;">
+								This is a mass multiplayer platform through which players can create their own avatars and interact with each other in an SNES style fantasy world. It has been designed so that one player can host a session which can be joined by multiple clients.
+
+								The platform was written in Java and can be looked at as a different take to Social Network. People can interact with each other and perform tasks in an open world while being completely anonymous.  
+								</p>
+
+								<div class="box alt">
+								<div class="row 50% uniform">
+									
+									<div class="10u$"><span class="image fit"><img src="images/mobileMod/socialMMO/smmo.jpg" alt="" /></span></div>
+								</div>
+								<h5>Screen Shot of Two Instances of the Game. On the left is James' session, while the one on the right is Mary's session
+								</h5>
+
+							</div>
+
+								<p>
+									The graphics module is responsible for reading and parsing the greyscale sprite sheet and then placing color over it, corresponding to the data it reads from the sprite sheet. This technique is efficient as designers will only need to create small greyscale levels when creating game maps.
+								</p>
+
+								<p>
+									The Multiplayer module provides a server and a client class. The server is set up and then, the clients can make requests to it. A UDP connection is established by exchange of IP Addresses and port numbers.
+A UDP connection was preferred over a TCP connection, because in the TCP connection, due to accuracy of packages being transferred, congestion occurs frequently which is undesirable. In UDP accuracy is compromised over efficient, fluid transfer of data.
+								</p>
+
+							
+						</section>
+						<a id="toTop" class="scrollToTop"  href="#" style="float:right; border-bottom-style: none;"><svg ckass="krown-svg arrow_up"  x="0px" y="0px" width="60px" height="60px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve"><polygon fill="#FFFFF" points="29.791,22.459 26.962,25.288 19.538,32.713 22.366,35.541 29.791,28.116 37.215,35.541 40.043,32.713 32.619,25.288 "/></svg></a>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://twitter.com/aroonmathai" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://github.com/aroonm/" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/aroon-mathai-b0980a9b" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="index.html" class="icon fa-home"><span class="label">Home</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Aroon Mathai</li><li><a href="index.html">Return Home</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script>
+$(window).scroll(function() {
+    			if ($(this).scrollTop()) {
+        			$('#toTop:hidden').stop(true, true).fadeIn();
+    			} else {
+        			$('#toTop').stop(true, true).fadeOut();
+    		}});
+
+</script>
+
+	</body>
+</html>
